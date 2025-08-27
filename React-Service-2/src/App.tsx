@@ -34,7 +34,7 @@ function App() {
     location.href = "http://sso.microservice.test:8000/token-logout"
   }
   const gotoLogin = async () => {
-    location.href = `http://sso.microservice.test:8000/login?next=http://service1.microservice.test:8000/`
+    location.href = `http://sso.microservice.test:8000/login?next=http://service2.microservice.test:8000/`
   }
   useEffect(() => {
     setAuth()
